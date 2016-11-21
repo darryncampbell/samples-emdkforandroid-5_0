@@ -154,4 +154,23 @@
         android:layout_toRightOf="@+id/buttonStartScan"
         android:text="Stop" />
 
+    <Button
+        android:text="Take Photo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/scrollView1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="15dp"
+        android:id="@+id/photoButton" />
+
+    <ImageView
+        android:src="@mipmap/ic_launcher"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/scrollView1"
+        android:layout_toRightOf="@+id/buttonStartScan"
+        android:layout_toEndOf="@+id/buttonStartScan"
+        android:id="@+id/mImageView" />
+
 </RelativeLayout>

@@ -9,6 +9,8 @@
         android:targetSdkVersion="19" />
 
     <uses-permission android:name="com.symbol.emdk.permission.EMDK"/>
+    <uses-feature android:name="android.hardware.camera"
+        android:required="true" />
 
     <application
         android:allowBackup="true"
